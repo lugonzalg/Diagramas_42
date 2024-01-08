@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-08T13:50:30.612Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/119.0" etag="X0SFq7oyZIjJyUIGHWdX" version="22.1.17" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-01-08T13:57:40.703Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/119.0" etag="VStHXN8XNaIwdzypDgYO" version="22.1.17" type="github" pages="3">
   <diagram name="Architecture" id="RZu23ld2hTER-Xl0848v">
     <mxGraphModel dx="2486" dy="1175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -152,26 +152,55 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="AYGTHwK5AFyXXELAavAv-1" value="login" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="375" y="80" width="100" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="AYGTHwK5AFyXXELAavAv-3" value="/token" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="64" width="140" height="52" as="geometry" />
+          <mxGeometry x="190" y="64" width="150" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="AYGTHwK5AFyXXELAavAv-4" value="+ user: UserLogin" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="AYGTHwK5AFyXXELAavAv-3">
-          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        <mxCell id="AYGTHwK5AFyXXELAavAv-4" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;-&amp;gt; user: UserLogin&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="AYGTHwK5AFyXXELAavAv-3">
+          <mxGeometry y="26" width="150" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="AYGTHwK5AFyXXELAavAv-14" value="Classname" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="90" width="140" height="218" as="geometry" />
+        <mxCell id="AYGTHwK5AFyXXELAavAv-23" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;lt;- token: TokenReturnSchema &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="AYGTHwK5AFyXXELAavAv-3">
+          <mxGeometry y="50" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="AYGTHwK5AFyXXELAavAv-15" value="&lt;div&gt;login: str&lt;/div&gt;&lt;div&gt;&amp;nbsp; max: 32&lt;/div&gt;&lt;div&gt;&amp;nbsp; regex:&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; alphanumeric&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &#39;_&#39;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="AYGTHwK5AFyXXELAavAv-14">
+        <mxCell id="AYGTHwK5AFyXXELAavAv-14" value="UserLogin" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="65" width="140" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="AYGTHwK5AFyXXELAavAv-15" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;login&lt;/b&gt;: str&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &lt;b&gt;max&lt;/b&gt;: 32&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &lt;b&gt;regex&lt;/b&gt;:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; alphanumeric&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &#39;_&#39;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="AYGTHwK5AFyXXELAavAv-14">
           <mxGeometry y="26" width="140" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="AYGTHwK5AFyXXELAavAv-16" value="&lt;div&gt;password: str&lt;/div&gt;&lt;div&gt;&amp;nbsp; min: 12&lt;/div&gt;&lt;div&gt;&amp;nbsp; max: 32&lt;/div&gt;&lt;div&gt;&amp;nbsp; regex:&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; alphanumeric&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; symbol&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; cannot contain login&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="AYGTHwK5AFyXXELAavAv-14">
+        <mxCell id="AYGTHwK5AFyXXELAavAv-16" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;password&lt;/b&gt;: str&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &lt;b&gt;min&lt;/b&gt;: 12&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &lt;b&gt;max&lt;/b&gt;: 32&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &lt;b&gt;regex&lt;/b&gt;:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; alphanumeric&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; symbol&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; cannot contain login&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="AYGTHwK5AFyXXELAavAv-14">
           <mxGeometry y="100" width="140" height="118" as="geometry" />
         </mxCell>
         <mxCell id="AYGTHwK5AFyXXELAavAv-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.016;entryY=0.171;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="AYGTHwK5AFyXXELAavAv-4" target="AYGTHwK5AFyXXELAavAv-14">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AYGTHwK5AFyXXELAavAv-19" value="" style="rounded=1;absoluteArcSize=1;html=1;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="590" y="6" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="AYGTHwK5AFyXXELAavAv-20" value="transcendence" style="html=1;shape=mxgraph.er.anchor;whiteSpace=wrap;" vertex="1" parent="AYGTHwK5AFyXXELAavAv-19">
+          <mxGeometry width="85" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="AYGTHwK5AFyXXELAavAv-21" value="login" style="rounded=1;absoluteArcSize=1;html=1;arcSize=10;whiteSpace=wrap;points=[];strokeColor=inherit;fillColor=inherit;" vertex="1" parent="AYGTHwK5AFyXXELAavAv-19">
+          <mxGeometry x="85" y="8.5" width="76.49999999999999" height="153" as="geometry" />
+        </mxCell>
+        <mxCell id="AYGTHwK5AFyXXELAavAv-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.005;entryY=0.055;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AYGTHwK5AFyXXELAavAv-19" target="AYGTHwK5AFyXXELAavAv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AYGTHwK5AFyXXELAavAv-25" value="TokenReturnSchema" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="310" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AYGTHwK5AFyXXELAavAv-26" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;access_token&lt;/b&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;: str&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="AYGTHwK5AFyXXELAavAv-25">
+          <mxGeometry y="26" width="140" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="AYGTHwK5AFyXXELAavAv-27" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;token_type&lt;/b&gt;: str&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="AYGTHwK5AFyXXELAavAv-25">
+          <mxGeometry y="50" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AYGTHwK5AFyXXELAavAv-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.002;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AYGTHwK5AFyXXELAavAv-23" target="AYGTHwK5AFyXXELAavAv-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="139" />
+              <mxPoint x="180" y="321" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
