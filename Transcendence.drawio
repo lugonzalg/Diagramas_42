@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2024-01-08T10:41:57.099Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/119.0" version="22.1.17" etag="-nNTkE0i5q1-IjxBV2eU" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-08T11:02:16.598Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/119.0" etag="B2N1_592CoyEUqTj-_vZ" version="22.1.17" type="github">
   <diagram name="Page-1" id="RZu23ld2hTER-Xl0848v">
-    <mxGraphModel>
+    <mxGraphModel dx="814" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ob3vMS9dtCklt6A0fJr--1" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+          <mxGeometry x="250" y="220" width="50" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Ob3vMS9dtCklt6A0fJr--2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="270" y="280" width="60" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
